@@ -1,0 +1,10 @@
+body{
+    display:flex;
+   background-color:#618AF2;
+
+}
+
+#main-page{
+    display: flexbox;
+    margin: auto;
+}
