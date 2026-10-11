@@ -2,8 +2,9 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
     <title>Conversor de numeros</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/index.css" type="text/css">
 </head>
 
 <body>
@@ -23,11 +24,13 @@
             <h2 id="bin-a-dec">binario a decimal</h2>
             <form>
                 <label>Introduce el numero en binario:</label><br>
-                <input type="text" required>
-                <input type="submit" value="Convetir">
+                <input type="number" id="numBin" required>
+                <input type="button" value="Convertir" id="convertir">
             </form>
+            <p id="resultado">Tu numero en decimal es</p>
         </section>
     </div>
+    <script src="/js conversion/binadec.js"></script>
 </body>
 
 </html>
